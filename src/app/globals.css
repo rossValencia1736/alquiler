@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-neutro-10: #000000;
+  --color-blanco: #ffffff;
+
+  --color-neutro-0: #f9fafb;
+  --color-neutro-1: #f3f4f6;
+  --color-neutro-2: #e5e7eb;
+  --color-neutro-3: #d1d5db;
+  --color-neutro-4: #9ca3af;
+  --color-neutro-5: #6b7280;
+  --color-neutro-6: #4b5563;
+  --color-neutro-7: #374151;
+  --color-neutro-8: #1f2937;
+  --color-neutro-9: #111827;
+  --color-neutro-10: #030712;
+
+  --color-0: #f0fdf4;
+  --color-1: #dcfce7;
+  --color-2: #bbf7d0;
+  --color-3: #86efac;
+  --color-4: #4ade80;
+  --color-5: #22c55e;
+  --color-6: #16a34a;
+  --color-7: #15803d;
+  --color-8: #166534;
+  --color-9: #14532d;
+  --color-10: #052e16;
+}
+
+body {
+  font-family: var(--fuente-texto);
+}
+
+h1 {
+  font-weight: 400;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  border: var(--color-neutro-10);
+}
+
+button {
+  font-weight: 500;
+  font-family: var(--fuente-texto);
+  color: var(--color-blanco);
+  background: var(--color-neutro-10);
+  border: none;
+
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+input,
+textarea {
+  font-weight: 500;
+  font-family: var(--fuente-texto);
+  color: var(--color-neutro-10);
+  background: var(--color-blanco);
+  border: none;
+  resize: none;
+
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--color-5);
+}
+
+select {
+  font-weight: 500;
+  font-family: var(--fuente-texto);
+  color: var(--color-neutro-10);
+  background: var(--color-blanco);
+  border: none;
+
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+option {
+  font-weight: 500;
+  font-family: var(--fuente-texto);
+  color: var(--color-neutro-10);
+  background: var(--color-blanco);
+  border: none;
+
+  padding: 10px 15px;
+}
+
+select:focus {
+  outline: none;
+}
+
+select option {
+  font-size: 16px;
+  color: var(--color-neutro-7);
+  background: var(--color-blanco);
+}
+
+select option:checked {
+  background: var(--color-neutro-4);
+  color: var(--color-blanco);
+}
+
+select option:hover {
+  background: var(--color-neutro-6);
+  color: var(--color-neutro-6);
+}
+
+/* OPENLAYERS */
+
+.ol-zoom-in,
+.ol-zoom-out {
+  background-color: var(--color-neutro-10);
+  color: var(--color-blanco);
+}
+
+.ol-zoom-in,
+.ol-zoom-out {
+  font-size: 16px;
+}
+
+/* Cambia la posición de los controles */
+.ol-zoom {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}

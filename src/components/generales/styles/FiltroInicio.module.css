@@ -1,0 +1,259 @@
+.filtro_inicio {
+  width: 100%;
+  height: 75dvh;
+  height: 75vh;
+  border-radius: 15px;
+
+  background-image: url("/img/foto_casa_1.webp");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .filtro_inicio {
+    height: 70dvh;
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .filtro_inicio {
+    height: 75dvh;
+    height: 75vh;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .filtro_inicio {
+    height: calc(100dvh - 70px);
+    height: calc(100vh - 70px);
+  }
+}
+
+/* contenido */
+
+.filtro_inicio_contenido {
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+}
+
+/* titulos */
+
+.filtro_inicio_contenido h2 {
+  font-size: 50px;
+  color: var(--color-blanco);
+  text-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+  text-align: center;
+  text-wrap: balance;
+}
+
+/* BUSCADOR */
+
+.filtro_inicio_buscador {
+  width: 100%;
+  max-width: 920px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+
+/* opciones */
+
+.filtro_inicio_buscador_opciones {
+  padding: 20px;
+  border-radius: 15px 15px 0 0;
+  background: var(--color-blanco);
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.filtro_inicio_buscador_opciones span {
+  font-weight: 500;
+  color: var(--color-neutro-8);
+  font-size: 18px;
+  cursor: default;
+  user-select: none;
+}
+
+.filtro_inicio_buscador_opciones span.opcion_activa {
+  color: var(--color-neutro-10);
+  text-decoration: underline;
+  text-decoration-color: var(--color-4);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+}
+
+/* filtros */
+
+.filtro_inicio_buscador_filtros {
+  width: 100%;
+  padding: 20px;
+  border-radius: 0 15px 15px 15px;
+  background: var(--color-blanco);
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.filtro_inicio_buscador_filtros_contenido {
+  width: 100%;
+  padding: 0 10px;
+
+  border-right: 2px solid var(--color-neutro-2);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.filtro_inicio_buscador_filtros_contenido:nth-child(3) {
+  border-right: none;
+}
+
+.filtro_inicio_buscador_filtros_contenido label {
+  font-size: 14px;
+  color: var(--color-neutro-6);
+}
+
+.filtro_inicio_buscador_filtros_contenido select {
+  font-size: 16px;
+  color: var(--color-neutro-8);
+
+  width: 100%;
+  padding: 10px 0;
+}
+
+.filtro_inicio_buscador_filtros_contenido select option {
+  font-size: 16px;
+}
+
+/* boton */
+
+.filtro_inicio_buscador_filtros button {
+  align-self: center;
+
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  /* contenido */
+
+  .filtro_inicio_contenido {
+    gap: 40px;
+  }
+
+  .filtro_inicio_contenido h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  /* BUSCADOR */
+
+  .filtro_inicio_buscador {
+    padding: 15px 30px;
+  }
+
+  /* filtros */
+
+  .filtro_inicio_buscador_filtros {
+    flex-direction: column;
+  }
+
+  .filtro_inicio_buscador_filtros_contenido {
+    border-right: none;
+  }
+
+  .filtro_inicio_buscador_filtros button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* contenido */
+
+  .filtro_inicio_contenido {
+    gap: 40px;
+  }
+
+  .filtro_inicio_contenido h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* contenido */
+
+  .filtro_inicio_contenido {
+    width: 100%;
+
+    gap: 20px;
+  }
+
+  .filtro_inicio_contenido h2 {
+    font-size: 26px;
+  }
+
+  /* BUSCADOR */
+
+  .filtro_inicio_buscador {
+    padding: 0px 30px;
+  }
+
+  /* opciones */
+
+  .filtro_inicio_buscador_opciones span {
+    font-size: 16px;
+  }
+
+  /* filtros */
+
+  .filtro_inicio_buscador_filtros {
+    gap: 10px;
+  }
+
+  .filtro_inicio_buscador_filtros_contenido label {
+    font-size: 12px;
+  }
+
+  .filtro_inicio_buscador_filtros_contenido select {
+    font-size: 14px;
+  }
+
+  .filtro_inicio_buscador_filtros_contenido select option {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  /* BUSCADOR */
+
+  .filtro_inicio_buscador {
+    padding: 15px 20px;
+  }
+
+  /* contenido */
+
+  .filtro_inicio_contenido h2 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,33 @@
+.carrousel_fotos {
+  width: 100%;
+  border-radius: 15px;
+
+  overflow: hidden;
+  user-select: none;
+}
+
+.foto {
+  width: 100%;
+  aspect-ratio: 4 / 2;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .foto {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .foto {
+    aspect-ratio: 4 / 4;
+  }
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "fecha_creacion": "2023-01-01",
+    "nombre": "Lindo hogar para estudiantes",
+    "descripcion": "Este departamento es para estudiantes que desean vivir en un hogar de calidad y que busquen un lugar para vivir de forma tranquila y segura. Este departamento ofrece un ambiente acogedor y tranquilo, con un buen sistema de aire acondicionado y un baño de calidad. También ofrece servicios de limpieza y cuidado personal, así como una amplia variedad de actividades para los estudiantes. Este departamento es ideal para aquellos que buscan un hogar tranquilo y acogedor para sus estudiantes.",
+    "fotos": [
+      {
+        "url": "https://i.postimg.cc/59TnMshp/alquiler1.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/dVK6hLty/alquiler2.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/jdfvqzKT/alquiler3.jpg"
+      }
+    ],
+    "tipo": "Departamento",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "San Juan de Miraflores",
+    "direccion": "Calle 123, Lima, Perú",
+    "ubicacion": {
+      "latitud": -12.0901,
+      "longitud": -77.01973
+    },
+    "precio": 99.0,
+    "estado": "Activo",
+    "mantenimiento": 100,
+    "detalles": {
+      "habitaciones": 2,
+      "baño": 2,
+      "sala": true,
+      "cocina": true,
+      "piscina": true,
+      "telefono": true,
+      "cable": true,
+      "wifi": true,
+      "seguridad": true,
+      "gym": true,
+      "tamaño": 34
+    }
+  },
+  {
+    "id": 2,
+    "fecha_creacion": "2023-01-05",
+    "nombre": "Acogedor departamento en Miraflores",
+    "descripcion": "Departamento amueblado en Miraflores, ideal para estudiantes o profesionales.",
+    "fotos": [
+      {
+        "url": "https://i.postimg.cc/59TnMshp/alquiler1.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/dVK6hLty/alquiler2.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/jdfvqzKT/alquiler3.jpg"
+      }
+    ],
+    "tipo": "Departamento",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Miraflores",
+    "direccion": "Av. Larco 123, Miraflores, Lima",
+    "ubicacion": {
+      "latitud": -12.053,
+      "longitud": -77.038
+    },
+    "precio": 120.0,
+    "estado": "Activo",
+    "mantenimiento": 150,
+    "detalles": {
+      "habitaciones": 3,
+      "baño": 2,
+      "sala": true,
+      "cocina": true,
+      "piscina": true,
+      "telefono": true,
+      "cable": true,
+      "wifi": true,
+      "seguridad": true,
+      "gym": false,
+      "tamaño": 40
+    }
+  },
+  {
+    "id": 3,
+    "fecha_creacion": "2023-01-10",
+    "nombre": "Casa en venta en Surco",
+    "descripcion": "Casa en venta en Surco, ideal para familias.",
+    "fotos": [
+      {
+        "url": "https://i.postimg.cc/59TnMshp/alquiler1.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/dVK6hLty/alquiler2.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/jdfvqzKT/alquiler3.jpg"
+      }
+    ],
+    "tipo": "Casa",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Surco",
+    "direccion": "Av. Caminos del Inca 456, Surco, Lima",
+    "ubicacion": {
+      "latitud": -12.062,
+      "longitud": -77.045
+    },
+    "precio": 250.0,
+    "estado": "Activo",
+    "mantenimiento": 200,
+    "detalles": {
+      "habitaciones": 4,
+      "baño": 3,
+      "sala": true,
+      "cocina": true,
+      "piscina": true,
+      "telefono": true,
+      "cable": true,
+      "wifi": true,
+      "seguridad": true,
+      "gym": true,
+      "tamaño": 50
+    }
+  },
+  {
+    "id": 4,
+    "fecha_creacion": "2023-01-15",
+    "nombre": "Amplio departamento en Barranco",
+    "descripcion": "Departamento amplio y luminoso en Barranco, ideal para estudiantes o profesionales.",
+    "fotos": [
+      {
+        "url": "https://i.postimg.cc/59TnMshp/alquiler1.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/dVK6hLty/alquiler2.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/jdfvqzKT/alquiler3.jpg"
+      }
+    ],
+    "tipo": "Departamento",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Barranco",
+    "direccion": "Av. República de Panamá 123, Barranco, Lima",
+    "ubicacion": {
+      "latitud": -12.035,
+      "longitud": -77.012
+    },
+    "precio": 150.0,
+    "estado": "Activo",
+    "mantenimiento": 100,
+    "detalles": {
+      "habitaciones": 3,
+      "baño": 2,
+      "sala": true,
+      "cocina": true,
+      "piscina": true,
+      "telefono": true,
+      "cable": true,
+      "wifi": true,
+      "seguridad": true,
+      "gym": false,
+      "tamaño": 45
+    }
+  },
+  {
+    "id": 5,
+    "fecha_creacion": "2023-01-20",
+    "nombre": "Vista Hermosa en Miraflores",
+    "descripcion": "Departamento con vista panorámica en Miraflores, ideal para aquellos que buscan un hogar con estilo y comodidad.",
+    "fotos": [
+      {
+        "url": "https://i.postimg.cc/59TnMshp/alquiler1.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/dVK6hLty/alquiler2.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/jdfvqzKT/alquiler3.jpg"
+      }
+    ],
+    "tipo": "Departamento",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Miraflores",
+    "direccion": "Av. Larco 456, Miraflores, Lima",
+    "ubicacion": {
+      "latitud": -12.029,
+      "longitud": -77.022
+    },
+    "precio": 200.0,
+    "estado": "Activo",
+    "mantenimiento": 150,
+    "detalles": {
+      "habitaciones": 3,
+      "baño": 2,
+      "sala": true,
+      "cocina": true,
+      "piscina": true,
+      "telefono": true,
+      "cable": true,
+      "wifi": true,
+      "seguridad": true,
+      "gym": true,
+      "tamaño": 50
+    }
+  },
+  {
+    "id": 6,
+    "fecha_creacion": "2023-01-25",
+    "nombre": "Hogar Acogedor en Surquillo",
+    "descripcion": "Casa acogedora en Surquillo, ideal para familias que buscan un hogar con jardín y espacio para disfrutar.",
+    "fotos": [
+      {
+        "url": "https://i.postimg.cc/59TnMshp/alquiler1.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/dVK6hLty/alquiler2.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/jdfvqzKT/alquiler3.jpg"
+      }
+    ],
+    "tipo": "Casa",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Surquillo",
+    "direccion": "Calle Los Libertadores 789, Surquillo, Lima",
+    "ubicacion": {
+      "latitud": -12.044,
+      "longitud": -77.039
+    },
+    "precio": 250.0,
+    "estado": "Activo",
+    "mantenimiento": 120,
+    "detalles": {
+      "habitaciones": 4,
+      "baño": 3,
+      "sala": true,
+      "cocina": true,
+      "piscina": true,
+      "telefono": true,
+      "cable": true,
+      "wifi": true,
+      "seguridad": true,
+      "gym": false,
+      "tamaño": 60
+    }
+  },
+  {
+    "id": 7,
+    "fecha_creacion": "2023-01-30",
+    "nombre": "Departamento Moderno en San Isidro",
+    "descripcion": "Departamento moderno y elegante en San Isidro, ideal para ejecutivos y profesionales que buscan un hogar con estilo y comodidad.",
+    "fotos": [
+      {
+        "url": "https://i.postimg.cc/59TnMshp/alquiler1.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/dVK6hLty/alquiler2.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/jdfvqzKT/alquiler3.jpg"
+      }
+    ],
+    "tipo": "Departamento",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "San Isidro",
+    "direccion": "Av. Conquistadores 901, San Isidro, Lima",
+    "ubicacion": {
+      "latitud": -12.051,
+      "longitud": -77.027
+    },
+    "precio": 220.0,
+    "estado": "Activo",
+    "mantenimiento": 180,
+    "detalles": {
+      "habitaciones": 3,
+      "baño": 2,
+      "sala": true,
+      "cocina": true,
+      "piscina": true,
+      "telefono": true,
+      "cable": true,
+      "wifi": true,
+      "seguridad": true,
+      "gym": true,
+      "tamaño": 55
+    }
+  },
+  {
+    "id": 8,
+    "fecha_creacion": "2023-02-05",
+    "nombre": "Casa con Jardín en Chorrillos",
+    "descripcion": "Casa acogedora con jardín en Chorrillos, ideal para familias que buscan un hogar con espacio para disfrutar al aire libre.",
+    "fotos": [
+      {
+        "url": "https://i.postimg.cc/59TnMshp/alquiler1.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/dVK6hLty/alquiler2.jpg"
+      },
+      {
+        "url": "https://i.postimg.cc/jdfvqzKT/alquiler3.jpg"
+      }
+    ],
+    "tipo": "Casa",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Chorrillos",
+    "direccion": "Calle Los Girasoles 123, Chorrillos, Lima",
+    "ubicacion": {
+      "latitud": -12.038,
+      "longitud": -77.015
+    },
+    "precio": 280.0,
+    "estado": "Activo",
+    "mantenimiento": 150,
+    "detalles": {
+      "habitaciones": 4,
+      "baño": 3,
+      "sala": true,
+      "cocina": true,
+      "piscina": true,
+      "telefono": true,
+      "cable": true,
+      "wifi": true,
+      "seguridad": true,
+      "gym": false,
+      "tamaño": 65
+    }
+  }
+]

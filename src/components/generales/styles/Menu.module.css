@@ -1,0 +1,27 @@
+.menu {
+  width: 100%;
+  max-width: 1400px;
+  height: 70px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu h1 {
+  font-size: 20px;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  .menu {
+    padding: 0 20px;
+  }
+}

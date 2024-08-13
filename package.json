@@ -1,0 +1,22 @@
+{
+  "name": "02-alquiler",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "ol": "^10.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-spring-carousel": "^2.0.19"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}
