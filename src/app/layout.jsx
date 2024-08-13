@@ -3,6 +3,8 @@ import "./globals.css";
 import Menu from "@/components/generales/Menu";
 import Pie from "@/components/generales/Pie";
 
+export const runtime = "edge";
+
 const urbanist = Urbanist({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
